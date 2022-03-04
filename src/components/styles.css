@@ -1,0 +1,95 @@
+header {
+  background-color: #49546d;
+  margin: -16px -30px 30px -30px;
+  padding: 10px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+.main_container {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto 50px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #49546d;
+  margin: 3% 0;
+}
+
+.btn:hover {
+  background-color: #6f7891;
+}
+
+.error_container {
+  margin: 20px 0;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  background: white;
+  padding: 3rem 10rem;
+  border-radius: 20px;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
+.temp_box {
+  display: flex;
+  padding: 0 10%;
+}
+
+.temp_container {
+  display: flex;
+  margin-right: 30px;
+}
+
+.temp_value {
+  font-size: 48px;
+}
+
+.temp_unit {
+  font-size: 24px;
+}
+
+.image_container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.temp_image {
+  height: 90px;
+  width: 150px;
+}
+
+.temp_phrase {
+  font-style: italic;
+}
